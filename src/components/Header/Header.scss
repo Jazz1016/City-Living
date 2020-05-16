@@ -1,0 +1,10 @@
+@import "../../sass/vars";
+
+.header-holder {
+  @include flex-row();
+  height: 10vh;
+  background-color: orange;
+}
+
+@media (min-width: $breakpoint-tablet) {
+}

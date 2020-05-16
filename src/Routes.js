@@ -8,6 +8,6 @@ export default (
   <Switch>
     <Route exact path="/" component={Landing} />
     <Route path="/compare" component={Compare} />
-    <Route path="/search" component={Search} />o
+    <Route path="/search" component={Search} />
   </Switch>
 );

@@ -1,0 +1,31 @@
+$primary: #026aa7;
+$secondary: #e5b87d;
+$light: #373760;
+$background: #181735;
+$header: #0e102b;
+$info: #f5678a;
+$success: #3dddc2;
+$danger: #9b0300;
+$textcolor1: black;
+$textcolor2: white;
+$textcolor3: rgb(155, 149, 185);
+
+$font1: "open sans", sans-serif;
+$font2: "Microsoft YaHei", sans-serif;
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1025px;
+
+@mixin flex-row($j: space-around, $a: center) {
+  display: flex;
+  flex-direction: row;
+  justify-content: $j;
+  align-items: $a;
+}
+
+@mixin flex-column($j: space-around, $a: center) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $j;
+  align-items: $a;
+}
