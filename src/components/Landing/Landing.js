@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./Landing.scss";
+import searchImg from "./assets/magnifying-glass.svg";
 
 const Landing = () => {
   const [userCity, setUserCity] = useState("");
@@ -7,11 +9,12 @@ const Landing = () => {
       Landing.js
       <h4>Find Your Ideal City</h4>
       <input
+        className="landing-input"
         onChange={(e) => {
           setUserCity(e.target.value);
         }}
       />
-      <button>Go</button>
+      {/* <button>Go</button> */}
       <p>compare cities</p>
     </div>
   );
