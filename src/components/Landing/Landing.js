@@ -14,6 +14,7 @@ const Landing = () => {
           setUserCity(e.target.value);
         }}
       />
+      <div className="button-a">Go</div>
       {/* <button>Go</button> */}
       <p>compare cities</p>
     </div>
