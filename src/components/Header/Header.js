@@ -4,7 +4,10 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div className="header-holder">
-      <h3>CityCost</h3>
+      <div className="header-title">
+        <h3>City</h3>
+        <h3 className="title-two">Cost</h3>
+      </div>
       <p>hi</p>
     </div>
   );

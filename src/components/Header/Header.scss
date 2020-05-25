@@ -3,7 +3,15 @@
 .header-holder {
   @include flex-row();
   height: 10vh;
-  background-color: orange;
+  background-color: $header;
+}
+
+.header-title {
+  @include flex-row();
+}
+
+.title-two {
+  color: $primary;
 }
 
 @media (min-width: $breakpoint-tablet) {
