@@ -9,6 +9,7 @@ const Header = () => {
         <h3 className="title-two">Cost</h3>
       </div>
       <p>2</p>
+      <p>2</p>
     </div>
   );
 };
